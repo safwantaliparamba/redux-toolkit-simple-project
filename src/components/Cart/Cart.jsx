@@ -10,7 +10,7 @@ const Cart = (props) => {
     return (
         <Card className={classes.cart}>
             <h2>Your Shopping Cart</h2>
-            <h2>{cartTotal} </h2>
+            <h2>Total cart value  {cartTotal} </h2>
             <ul>
                 {cartItems.map((item) => (
                     <CartItem
